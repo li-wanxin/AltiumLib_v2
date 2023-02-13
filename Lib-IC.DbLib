@@ -1,0 +1,316 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\AltiumLib_v2\Database\IC.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Database\IC.mdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=MEMORY
+[Table1]
+SchemaName=
+TableName=AMPLIFY
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table2]
+SchemaName=
+TableName=BMS
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=644|Footprint Ref0=116|Library Ref0=77|Library Path0=115|Footprint Path0=146|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=172|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=98
+[Table3]
+SchemaName=
+TableName=DATA-CONVERT
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=585|Footprint Ref0=117|Library Ref0=100|Library Path0=175|Footprint Path0=147|Component Type0=139|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=292|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=75
+[Table4]
+SchemaName=
+TableName=DC-DC
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Component Type0=111|Description0=331|Footprint Ref0=145|Library Ref0=77|Library Path0=127|Footprint Path0=147|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=182|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=116
+[Table5]
+SchemaName=
+TableName=INTERFACE
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table6]
+SchemaName=
+TableName=LDO
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=519|Footprint Ref0=92|Library Ref0=77|Library Path0=115|Footprint Path0=135|Component Type0=111|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=175|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=116
+[Table7]
+SchemaName=
+TableName=LED-DRIVER
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table8]
+SchemaName=
+TableName=LOGIC
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table9]
+SchemaName=
+TableName=MCU
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=82|Footprint Ref0=113|Library Ref0=137|Library Path0=118|Footprint Path0=145|Component Type0=137|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=391|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=126
+[Table10]
+SchemaName=
+TableName=MEMORY
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=307|Footprint Ref0=92|Library Ref0=77|Library Path0=140|Footprint Path0=139|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=226|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=126
+[Table11]
+SchemaName=
+TableName=MOTOR
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table12]
+SchemaName=
+TableName=OTHER
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=354|Footprint Ref0=92|Library Ref0=94|Library Path0=129|Footprint Path0=143|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=263|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=89
+[Table13]
+SchemaName=
+TableName=POWER-SWITCH
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=190|Footprint Ref0=99|Library Ref0=77|Library Path0=177|Footprint Path0=152|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=275|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=96
+[Table14]
+SchemaName=
+TableName=SENSER
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Description0=308|Footprint Ref0=98|Library Ref0=77|Library Path0=131|Footprint Path0=143|Component Type0=111|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=222|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=134
+[FieldMap1]
+Options=FieldName=AMPLIFY.Description|TableNameOnly=AMPLIFY|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=AMPLIFY.Footprint Ref|TableNameOnly=AMPLIFY|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=AMPLIFY.Library Ref|TableNameOnly=AMPLIFY|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=AMPLIFY.Library Path|TableNameOnly=AMPLIFY|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=AMPLIFY.Footprint Path|TableNameOnly=AMPLIFY|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=AMPLIFY.Component Type|TableNameOnly=AMPLIFY|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=BMS.Description|TableNameOnly=BMS|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=BMS.Footprint Ref|TableNameOnly=BMS|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=BMS.Library Ref|TableNameOnly=BMS|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=BMS.Library Path|TableNameOnly=BMS|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=BMS.Footprint Path|TableNameOnly=BMS|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=BMS.Component Type|TableNameOnly=BMS|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=DATA-CONVERT.Description|TableNameOnly=DATA-CONVERT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=DATA-CONVERT.Footprint Ref|TableNameOnly=DATA-CONVERT|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=DATA-CONVERT.Library Ref|TableNameOnly=DATA-CONVERT|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=DATA-CONVERT.Library Path|TableNameOnly=DATA-CONVERT|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=DATA-CONVERT.Footprint Path|TableNameOnly=DATA-CONVERT|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=DATA-CONVERT.Component Type|TableNameOnly=DATA-CONVERT|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap19]
+Options=FieldName=DC-DC.Component Type|TableNameOnly=DC-DC|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap20]
+Options=FieldName=DC-DC.Description|TableNameOnly=DC-DC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=DC-DC.Footprint Ref|TableNameOnly=DC-DC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=DC-DC.Library Ref|TableNameOnly=DC-DC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=DC-DC.Library Path|TableNameOnly=DC-DC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=DC-DC.Footprint Path|TableNameOnly=DC-DC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=INTERFACE.Description|TableNameOnly=INTERFACE|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap26]
+Options=FieldName=INTERFACE.Footprint Ref|TableNameOnly=INTERFACE|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap27]
+Options=FieldName=INTERFACE.Library Ref|TableNameOnly=INTERFACE|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap28]
+Options=FieldName=INTERFACE.Library Path|TableNameOnly=INTERFACE|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap29]
+Options=FieldName=INTERFACE.Footprint Path|TableNameOnly=INTERFACE|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap30]
+Options=FieldName=INTERFACE.Component Type|TableNameOnly=INTERFACE|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap31]
+Options=FieldName=LDO.Description|TableNameOnly=LDO|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap32]
+Options=FieldName=LDO.Footprint Ref|TableNameOnly=LDO|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap33]
+Options=FieldName=LDO.Library Ref|TableNameOnly=LDO|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap34]
+Options=FieldName=LDO.Library Path|TableNameOnly=LDO|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap35]
+Options=FieldName=LDO.Footprint Path|TableNameOnly=LDO|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap36]
+Options=FieldName=LDO.Component Type|TableNameOnly=LDO|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=LED-DRIVER.Description|TableNameOnly=LED-DRIVER|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=LED-DRIVER.Footprint Ref|TableNameOnly=LED-DRIVER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=LED-DRIVER.Library Ref|TableNameOnly=LED-DRIVER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=LED-DRIVER.Library Path|TableNameOnly=LED-DRIVER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=LED-DRIVER.Footprint Path|TableNameOnly=LED-DRIVER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
+Options=FieldName=LED-DRIVER.Component Type|TableNameOnly=LED-DRIVER|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=LOGIC.Description|TableNameOnly=LOGIC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=LOGIC.Footprint Ref|TableNameOnly=LOGIC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=LOGIC.Library Ref|TableNameOnly=LOGIC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap46]
+Options=FieldName=LOGIC.Library Path|TableNameOnly=LOGIC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap47]
+Options=FieldName=LOGIC.Footprint Path|TableNameOnly=LOGIC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap48]
+Options=FieldName=LOGIC.Component Type|TableNameOnly=LOGIC|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap49]
+Options=FieldName=MCU.Description|TableNameOnly=MCU|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap50]
+Options=FieldName=MCU.Footprint Ref|TableNameOnly=MCU|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap51]
+Options=FieldName=MCU.Library Ref|TableNameOnly=MCU|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap52]
+Options=FieldName=MCU.Library Path|TableNameOnly=MCU|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap53]
+Options=FieldName=MCU.Footprint Path|TableNameOnly=MCU|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap54]
+Options=FieldName=MCU.Component Type|TableNameOnly=MCU|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap55]
+Options=FieldName=MEMORY.Description|TableNameOnly=MEMORY|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap56]
+Options=FieldName=MEMORY.Footprint Ref|TableNameOnly=MEMORY|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap57]
+Options=FieldName=MEMORY.Library Ref|TableNameOnly=MEMORY|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap58]
+Options=FieldName=MEMORY.Library Path|TableNameOnly=MEMORY|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap59]
+Options=FieldName=MEMORY.Footprint Path|TableNameOnly=MEMORY|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap60]
+Options=FieldName=MEMORY.Component Type|TableNameOnly=MEMORY|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap61]
+Options=FieldName=MOTOR.Description|TableNameOnly=MOTOR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap62]
+Options=FieldName=MOTOR.Footprint Ref|TableNameOnly=MOTOR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap63]
+Options=FieldName=MOTOR.Library Ref|TableNameOnly=MOTOR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap64]
+Options=FieldName=MOTOR.Library Path|TableNameOnly=MOTOR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap65]
+Options=FieldName=MOTOR.Footprint Path|TableNameOnly=MOTOR|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap66]
+Options=FieldName=MOTOR.Component Type|TableNameOnly=MOTOR|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap67]
+Options=FieldName=OTHER.Description|TableNameOnly=OTHER|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap68]
+Options=FieldName=OTHER.Footprint Ref|TableNameOnly=OTHER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap69]
+Options=FieldName=OTHER.Library Ref|TableNameOnly=OTHER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap70]
+Options=FieldName=OTHER.Library Path|TableNameOnly=OTHER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=OTHER.Footprint Path|TableNameOnly=OTHER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=OTHER.Component Type|TableNameOnly=OTHER|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=POWER-SWITCH.Description|TableNameOnly=POWER-SWITCH|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=POWER-SWITCH.Footprint Ref|TableNameOnly=POWER-SWITCH|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
+Options=FieldName=POWER-SWITCH.Library Ref|TableNameOnly=POWER-SWITCH|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap76]
+Options=FieldName=POWER-SWITCH.Library Path|TableNameOnly=POWER-SWITCH|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap77]
+Options=FieldName=POWER-SWITCH.Footprint Path|TableNameOnly=POWER-SWITCH|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap78]
+Options=FieldName=POWER-SWITCH.Component Type|TableNameOnly=POWER-SWITCH|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap79]
+Options=FieldName=SENSER.Description|TableNameOnly=SENSER|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap80]
+Options=FieldName=SENSER.Footprint Ref|TableNameOnly=SENSER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap81]
+Options=FieldName=SENSER.Library Ref|TableNameOnly=SENSER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap82]
+Options=FieldName=SENSER.Library Path|TableNameOnly=SENSER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap83]
+Options=FieldName=SENSER.Footprint Path|TableNameOnly=SENSER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap84]
+Options=FieldName=SENSER.Component Type|TableNameOnly=SENSER|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
