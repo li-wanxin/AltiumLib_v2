@@ -22,127 +22,132 @@ SchemaName=
 LastFocusedTable=CrystalOscillator
 [Table1]
 SchemaName=
-TableName=CrystalOscillator
+TableName=BJT
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=245|Footprint Path0=168|Component Type0=111|Part Number0=87|Value0=60|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=88
 [Table2]
 SchemaName=
-TableName=Resistance
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=191|Footprint Ref0=92|Library Ref0=77|Library Path0=164|Footprint Path0=110|Component Type0=146|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=178|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=81
-[Table3]
-SchemaName=
-TableName=Speaker
+TableName=CrystalOscillator
 Enabled=True
 UserWhere=0
 UserWhereText=[Component Type] = '{Component Type}'
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Component Type0=111|Description0=82|Footprint Ref0=143|Library Ref0=77|Library Path0=203|Footprint Path0=126|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=92
+BrowserOrder_Visible=Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=245|Component Type0=111|Part Number0=87|Value0=60|Tolerance0=73|ComponentLink2Description0=170|Footprint Path0=168|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=88
+[Table3]
+SchemaName=
+TableName=MOSFET
+Enabled=True
+UserWhere=0
+UserWhereText=
 [Table4]
+SchemaName=
+TableName=Resistance
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=Speaker
+Enabled=True
+UserWhere=0
+UserWhereText=[Component Type] = '{Component Type}'
+[Table6]
 SchemaName=
 TableName=SuperCap
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Component Type0=111|Description0=82|Value0=61|Tolerance0=73|Footprint Ref0=165|Library Ref0=77|Library Path0=182|ComponentLink2Description0=170|Footprint Path0=159|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=68
-[Table5]
-SchemaName=
-TableName=SuperCapacitance
-Enabled=True
-UserWhere=0
-UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=100|Description0=100|Footprint Ref0=100|Library Ref0=100|Library Path0=100|Footprint Path0=100|Component Type0=100|Value0=100|Tolerance0=100|ComponentLink2Description0=100|ComponentLink2URL0=100|Suppiler0=100|LatestRevisionDate0=100|Suppiler Number0=100|Vendor0=100
-[Table6]
+[Table7]
 SchemaName=
 TableName=Switch
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Component Type0=111|Description0=187|Footprint Ref0=138|Library Ref0=77|Library Path0=196|Footprint Path0=119|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=164
 [FieldMap1]
-Options=FieldName=CrystalOscillator.Description|TableNameOnly=CrystalOscillator|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Description|TableNameOnly=BJT|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=CrystalOscillator.Footprint Ref|TableNameOnly=CrystalOscillator|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Footprint Ref|TableNameOnly=BJT|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=CrystalOscillator.Library Ref|TableNameOnly=CrystalOscillator|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Library Ref|TableNameOnly=BJT|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=CrystalOscillator.Library Path|TableNameOnly=CrystalOscillator|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Library Path|TableNameOnly=BJT|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=CrystalOscillator.Footprint Path|TableNameOnly=CrystalOscillator|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Footprint Path|TableNameOnly=BJT|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=CrystalOscillator.Component Type|TableNameOnly=CrystalOscillator|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=BJT.Component Type|TableNameOnly=BJT|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=Resistance.Description|TableNameOnly=Resistance|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Description|TableNameOnly=CrystalOscillator|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
-Options=FieldName=Resistance.Footprint Ref|TableNameOnly=Resistance|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Footprint Ref|TableNameOnly=CrystalOscillator|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap9]
-Options=FieldName=Resistance.Library Ref|TableNameOnly=Resistance|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Library Ref|TableNameOnly=CrystalOscillator|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
-Options=FieldName=Resistance.Library Path|TableNameOnly=Resistance|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Library Path|TableNameOnly=CrystalOscillator|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap11]
-Options=FieldName=Resistance.Footprint Path|TableNameOnly=Resistance|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Component Type|TableNameOnly=CrystalOscillator|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
-Options=FieldName=Resistance.Component Type|TableNameOnly=Resistance|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=CrystalOscillator.Footprint Path|TableNameOnly=CrystalOscillator|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap13]
-Options=FieldName=Speaker.Component Type|TableNameOnly=Speaker|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Component Type|TableNameOnly=MOSFET|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap14]
-Options=FieldName=Speaker.Description|TableNameOnly=Speaker|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Description|TableNameOnly=MOSFET|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap15]
-Options=FieldName=Speaker.Footprint Ref|TableNameOnly=Speaker|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Footprint Ref|TableNameOnly=MOSFET|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Speaker.Library Ref|TableNameOnly=Speaker|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Library Ref|TableNameOnly=MOSFET|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Speaker.Library Path|TableNameOnly=Speaker|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Library Path|TableNameOnly=MOSFET|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Speaker.Footprint Path|TableNameOnly=Speaker|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=MOSFET.Footprint Path|TableNameOnly=MOSFET|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=SuperCap.Component Type|TableNameOnly=SuperCap|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Description|TableNameOnly=Resistance|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=SuperCap.Description|TableNameOnly=SuperCap|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Footprint Ref|TableNameOnly=Resistance|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
-Options=FieldName=SuperCap.Footprint Ref|TableNameOnly=SuperCap|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Library Ref|TableNameOnly=Resistance|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=SuperCap.Library Ref|TableNameOnly=SuperCap|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Library Path|TableNameOnly=Resistance|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap23]
-Options=FieldName=SuperCap.Library Path|TableNameOnly=SuperCap|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Footprint Path|TableNameOnly=Resistance|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap24]
-Options=FieldName=SuperCap.Footprint Path|TableNameOnly=SuperCap|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Resistance.Component Type|TableNameOnly=Resistance|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap25]
-Options=FieldName=SuperCapacitance.Part Number|TableNameOnly=SuperCapacitance|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Component Type|TableNameOnly=Speaker|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
-Options=FieldName=SuperCapacitance.Description|TableNameOnly=SuperCapacitance|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Description|TableNameOnly=Speaker|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
-Options=FieldName=SuperCapacitance.Footprint Ref|TableNameOnly=SuperCapacitance|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Footprint Ref|TableNameOnly=Speaker|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap28]
-Options=FieldName=SuperCapacitance.Library Ref|TableNameOnly=SuperCapacitance|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Library Ref|TableNameOnly=Speaker|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap29]
-Options=FieldName=SuperCapacitance.Library Path|TableNameOnly=SuperCapacitance|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Library Path|TableNameOnly=Speaker|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap30]
-Options=FieldName=SuperCapacitance.Footprint Path|TableNameOnly=SuperCapacitance|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Speaker.Footprint Path|TableNameOnly=Speaker|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap31]
-Options=FieldName=Switch.Component Type|TableNameOnly=Switch|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SuperCap.Component Type|TableNameOnly=SuperCap|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap32]
-Options=FieldName=Switch.Description|TableNameOnly=Switch|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SuperCap.Description|TableNameOnly=SuperCap|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap33]
-Options=FieldName=Switch.Footprint Ref|TableNameOnly=Switch|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SuperCap.Footprint Ref|TableNameOnly=SuperCap|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap34]
-Options=FieldName=Switch.Library Ref|TableNameOnly=Switch|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SuperCap.Library Ref|TableNameOnly=SuperCap|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap35]
-Options=FieldName=Switch.Library Path|TableNameOnly=Switch|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SuperCap.Library Path|TableNameOnly=SuperCap|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap36]
+Options=FieldName=SuperCap.Footprint Path|TableNameOnly=SuperCap|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap37]
+Options=FieldName=Switch.Component Type|TableNameOnly=Switch|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap38]
+Options=FieldName=Switch.Description|TableNameOnly=Switch|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap39]
+Options=FieldName=Switch.Footprint Ref|TableNameOnly=Switch|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Switch.Library Ref|TableNameOnly=Switch|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap41]
+Options=FieldName=Switch.Library Path|TableNameOnly=Switch|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap42]
 Options=FieldName=Switch.Footprint Path|TableNameOnly=Switch|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap43]
+Options=FieldName=Switch.ComponentLink2Description|TableNameOnly=Switch|FieldNameOnly=ComponentLink2Description|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

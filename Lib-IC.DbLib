@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\AltiumLib_v2\D
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=MCU
+LastFocusedTable=SENSOR
 [Table1]
 SchemaName=
 TableName=AMPLIFY
@@ -32,18 +32,12 @@ TableName=BMS
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=644|Footprint Ref0=116|Library Ref0=77|Library Path0=115|Footprint Path0=146|Component Type0=111|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=172|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=98
 [Table3]
 SchemaName=
 TableName=DATA-CONVERT
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=585|Footprint Ref0=117|Library Ref0=100|Library Path0=175|Footprint Path0=147|Component Type0=139|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=292|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=75
 [Table4]
 SchemaName=
 TableName=DC-DC
@@ -62,18 +56,12 @@ TableName=LDO
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=519|Footprint Ref0=97|Library Ref0=77|Library Path0=115|Footprint Path0=135|Component Type0=111|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=175|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=116
 [Table7]
 SchemaName=
 TableName=LED-DRIVER
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Footprint Ref0=92|Library Ref0=77|Library Path0=83|Footprint Path0=98|Component Type0=111|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
 [Table8]
 SchemaName=
 TableName=LOGIC
@@ -86,9 +74,6 @@ TableName=MCU
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Description0=82|Footprint Ref0=113|Library Ref0=137|Library Path0=118|Footprint Path0=145|Component Type0=137|Part Number0=87|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=391|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=126
 [Table10]
 SchemaName=
 TableName=MEMORY
@@ -115,10 +100,13 @@ UserWhere=0
 UserWhereText=
 [Table14]
 SchemaName=
-TableName=SENSER
+TableName=SENSOR
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Component Type0=111|Description0=308|Value0=52|Tolerance0=73|Footprint Ref0=98|Library Ref0=77|Library Path0=134|ComponentLink2Description0=170|Footprint Path0=147|ComponentLink2URL0=222|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=134
 [FieldMap1]
 Options=FieldName=AMPLIFY.Description|TableNameOnly=AMPLIFY|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -276,14 +264,14 @@ Options=FieldName=POWER-SWITCH.Footprint Path|TableNameOnly=POWER-SWITCH|FieldNa
 [FieldMap78]
 Options=FieldName=POWER-SWITCH.Component Type|TableNameOnly=POWER-SWITCH|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=SENSER.Description|TableNameOnly=SENSER|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Component Type|TableNameOnly=SENSOR|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=SENSER.Footprint Ref|TableNameOnly=SENSER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Description|TableNameOnly=SENSOR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=SENSER.Library Ref|TableNameOnly=SENSER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Footprint Ref|TableNameOnly=SENSOR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=SENSER.Library Path|TableNameOnly=SENSER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Library Ref|TableNameOnly=SENSOR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=SENSER.Footprint Path|TableNameOnly=SENSER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Library Path|TableNameOnly=SENSOR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
-Options=FieldName=SENSER.Component Type|TableNameOnly=SENSER|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=SENSOR.Footprint Path|TableNameOnly=SENSOR|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
