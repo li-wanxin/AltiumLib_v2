@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=SENSOR
+LastFocusedTable=RTC/TIMER
 [Table1]
 SchemaName=
 TableName=AMPLIFY
@@ -100,13 +100,19 @@ UserWhere=0
 UserWhereText=
 [Table14]
 SchemaName=
-TableName=SENSOR
+TableName=RTC/TIMER
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Part Number0=87|Component Type0=111|Description0=308|Value0=52|Tolerance0=73|Footprint Ref0=98|Library Ref0=77|Library Path0=134|ComponentLink2Description0=170|Footprint Path0=147|ComponentLink2URL0=222|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=134
+BrowserOrder_Visible=Part Number0=87|Component Type0=111|Description0=82|Value0=52|Tolerance0=73|Footprint Ref0=92|Library Ref0=77|Library Path0=152|ComponentLink2Description0=170|Footprint Path0=135|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=81
+[Table15]
+SchemaName=
+TableName=SENSOR
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=AMPLIFY.Description|TableNameOnly=AMPLIFY|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -264,14 +270,26 @@ Options=FieldName=POWER-SWITCH.Footprint Path|TableNameOnly=POWER-SWITCH|FieldNa
 [FieldMap78]
 Options=FieldName=POWER-SWITCH.Component Type|TableNameOnly=POWER-SWITCH|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap79]
-Options=FieldName=SENSOR.Component Type|TableNameOnly=SENSOR|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RTC/TIMER.Component Type|TableNameOnly=RTC/TIMER|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap80]
-Options=FieldName=SENSOR.Description|TableNameOnly=SENSOR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RTC/TIMER.Description|TableNameOnly=RTC/TIMER|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap81]
-Options=FieldName=SENSOR.Footprint Ref|TableNameOnly=SENSOR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RTC/TIMER.Footprint Ref|TableNameOnly=RTC/TIMER|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap82]
-Options=FieldName=SENSOR.Library Ref|TableNameOnly=SENSOR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RTC/TIMER.Library Ref|TableNameOnly=RTC/TIMER|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap83]
-Options=FieldName=SENSOR.Library Path|TableNameOnly=SENSOR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=RTC/TIMER.Library Path|TableNameOnly=RTC/TIMER|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap84]
+Options=FieldName=RTC/TIMER.Footprint Path|TableNameOnly=RTC/TIMER|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap85]
+Options=FieldName=SENSOR.Component Type|TableNameOnly=SENSOR|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap86]
+Options=FieldName=SENSOR.Description|TableNameOnly=SENSOR|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap87]
+Options=FieldName=SENSOR.Footprint Ref|TableNameOnly=SENSOR|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap88]
+Options=FieldName=SENSOR.Library Ref|TableNameOnly=SENSOR|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap89]
+Options=FieldName=SENSOR.Library Path|TableNameOnly=SENSOR|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap90]
 Options=FieldName=SENSOR.Footprint Path|TableNameOnly=SENSOR|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
