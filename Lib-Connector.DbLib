@@ -1,0 +1,85 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\AltiumLib_v2\Database\Connector.mdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=1
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access
+LibraryDatabasePath=Database\Connector.mdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=MOLEX
+[Table1]
+SchemaName=
+TableName=DIN41612
+Enabled=True
+UserWhere=0
+UserWhereText=[Component Type] = '{Component Type}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Component Type0=111|Description0=273|Library Ref0=79|Library Path0=245|Footprint Path0=192|Part Number0=87|Value0=52|Tolerance0=73|Footprint Ref0=106|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=98
+[Table2]
+SchemaName=
+TableName=FFC/FPC
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Component Type0=111|Description0=189|Footprint Ref0=102|Library Ref0=77|Library Path0=185|Footprint Path0=177|Part Number0=87|Value0=76|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[Table3]
+SchemaName=
+TableName=MOLEX
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=Component Type0=Up
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Component Type0=111|Description0=201|Footprint Ref0=92|Library Ref0=77|Library Path0=219|Footprint Path0=213|Value0=52|Tolerance0=73|ComponentLink2Description0=170|ComponentLink2URL0=131|Suppiler0=66|LatestRevisionDate0=120|Suppiler Number0=110|Vendor0=61
+[FieldMap1]
+Options=FieldName=DIN41612.Component Type|TableNameOnly=DIN41612|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=DIN41612.Description|TableNameOnly=DIN41612|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=DIN41612.Library Ref|TableNameOnly=DIN41612|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=DIN41612.Library Path|TableNameOnly=DIN41612|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=DIN41612.Footprint Path|TableNameOnly=DIN41612|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=DIN41612.Footprint Ref|TableNameOnly=DIN41612|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=FFC/FPC.Component Type|TableNameOnly=FFC/FPC|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=FFC/FPC.Description|TableNameOnly=FFC/FPC|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=FFC/FPC.Footprint Ref|TableNameOnly=FFC/FPC|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=FFC/FPC.Library Ref|TableNameOnly=FFC/FPC|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=FFC/FPC.Library Path|TableNameOnly=FFC/FPC|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=FFC/FPC.Footprint Path|TableNameOnly=FFC/FPC|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=MOLEX.Description|TableNameOnly=MOLEX|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=MOLEX.Footprint Ref|TableNameOnly=MOLEX|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=MOLEX.Library Ref|TableNameOnly=MOLEX|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=MOLEX.Library Path|TableNameOnly=MOLEX|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=MOLEX.Footprint Path|TableNameOnly=MOLEX|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=MOLEX.Component Type|TableNameOnly=MOLEX|FieldNameOnly=Component Type|FieldType=0|ParameterName=Component Type|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
