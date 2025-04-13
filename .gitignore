@@ -3,3 +3,4 @@ desktop.ini
 Database/*.ldb
 Altium System Library/
 Altium System Library.Ink
+**/Thumbs.db
